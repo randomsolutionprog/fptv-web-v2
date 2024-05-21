@@ -19,6 +19,9 @@
     border-color: #312783;
 }
 .nav-link:hover{
+  border-bottom: 2px solid blue;
+}
+.nav-link.active{
   border-bottom: 2px solid #e30514;
 }
 /* Override Bootstrap navbar color */
@@ -197,3 +200,4 @@ body {
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
 }
+
